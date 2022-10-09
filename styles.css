@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    grid-gap: 1%;
+}
+
+.one {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: aqua;
+}
+
+.two {
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: aquamarine;
+}
+
+.three {
+    grid-area: 4 / 1 / 6 / 2;
+    background-color: blue;
+}
+
+.four {
+    grid-area: 6 / 1 / 8 / 2;
+    background-color: blueviolet;
+}
+
+.five {
+    grid-area: 8 / 1 / 10 / 2;
+    background-color: brown;
+}
+
+.six{
+    grid-area: 10 / 1 / 12 / 2;
+    background-color: lightblue;
+}
+
+.seven {
+    grid-area: 12 / 1 / 14 / 2;
+    background-color: lightcoral;
+}
+
+.eight {
+    grid-area: 14 / 1 / 16 / 2;
+    background-color: lightcyan;
+}
+
+.nine {
+    grid-area: 16 / 1 / 18 / 2;
+    background-color: lightgoldenrodyellow;
+}
+
+.ten {
+    grid-area: 1 / 2 / 4 / 9;
+    background-color: gray;
+}
+
+.eleven {
+    grid-area: 4 / 2 / 6 / 3;
+    background-color: lightgray;
+}
+
+.twelve {
+    grid-area: 6 / 2 / 8 / 3;
+    background-color: lightgreen;
+}
+
+.thirteen {
+    grid-area: 8 / 2 / 10 / 3;
+    background-color: lightpink;
+}
+
+.fourteen {
+    grid-area: 10 / 2 / 12 / 3;
+    background-color: lightsalmon;
+}
+
+.fifteen {
+    grid-area: 12 / 2 / 14 / 3;
+    background-color: lightseagreen;
+}
+
+.sixteen {
+    grid-area: 14 / 2 / 16 / 9;
+    background-color: lightskyblue;
+}
+
+.seventeen {
+    grid-area: 16 / 2 / 18 / 3;
+    background-color: lightslategray;
+}
+
+.eighteen {
+    grid-area: 4 / 3 / 6 / 4;
+    background-color: darkblue;
+}
+
+.nineteen {
+    grid-area: 6 / 3 / 8 / 4;
+    background-color: darkcyan;
+}
+
+.twenty {
+    grid-area: 8 / 3 / 10 / 4;
+    background-color: darkgoldenrod;
+}
+
+.twentyone {
+    grid-area: 10 / 3 / 12 / 4;
+    background-color: darkgray;
+}
+
+.twentytwo {
+    grid-area: 12 / 3 / 14 / 4;
+    background-color: darkgreen;
+}
+
+.twentythree {
+    grid-area: 16 / 3 / 18 / 4;
+    background-color: darkkhaki;
+}
